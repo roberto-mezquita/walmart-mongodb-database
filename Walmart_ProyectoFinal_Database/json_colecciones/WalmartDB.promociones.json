@@ -1,0 +1,292 @@
+[{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc53"
+  },
+  "codigo_promo": "PROMO-001",
+  "nombre": "Rollback Electronica",
+  "descripcion": "Descuento especial en televisores y laptops",
+  "tipo": "rollback",
+  "descuento_pct": 15,
+  "productos_aplicados": [
+    "ELEC-001",
+    "ELEC-002",
+    "ELEC-004"
+  ],
+  "fecha_inicio": {
+    "$date": "2026-06-01T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-06-30T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    1001,
+    1002,
+    1003,
+    1004,
+    9001
+  ],
+  "activa": true,
+  "creado_por": "EMP-001"
+},
+{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc54"
+  },
+  "codigo_promo": "PROMO-002",
+  "nombre": "Especial Alimentos Basicos",
+  "descripcion": "Precios bajos en productos de canasta basica",
+  "tipo": "precio_especial",
+  "descuento_pct": 10,
+  "productos_aplicados": [
+    "ALIM-004",
+    "ALIM-005",
+    "ALIM-007"
+  ],
+  "fecha_inicio": {
+    "$date": "2026-06-01T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-06-15T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    1001,
+    1002,
+    1003,
+    1004
+  ],
+  "activa": true,
+  "creado_por": "EMP-002"
+},
+{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc55"
+  },
+  "codigo_promo": "PROMO-003",
+  "nombre": "Clearance Ropa Verano",
+  "descripcion": "Liquidacion de ropa de temporada",
+  "tipo": "clearance",
+  "descuento_pct": 30,
+  "productos_aplicados": [
+    "ROPA-003",
+    "ROPA-004",
+    "ROPA-006"
+  ],
+  "fecha_inicio": {
+    "$date": "2026-05-15T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-06-15T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    1001,
+    1002,
+    1003,
+    1004
+  ],
+  "activa": true,
+  "creado_por": "EMP-003"
+},
+{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc56"
+  },
+  "codigo_promo": "PROMO-004",
+  "nombre": "Walmart Pass Exclusivo",
+  "descripcion": "Descuento exclusivo para miembros Walmart Pass",
+  "tipo": "membresia",
+  "descuento_pct": 5,
+  "productos_aplicados": [
+    "ELEC-001",
+    "ELEC-002",
+    "ELEC-003",
+    "ELEC-004",
+    "ELEC-006",
+    "ELEC-008"
+  ],
+  "fecha_inicio": {
+    "$date": "2026-01-01T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-12-31T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    1001,
+    1002,
+    1003,
+    1004,
+    9001
+  ],
+  "activa": true,
+  "creado_por": "EMP-001"
+},
+{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc57"
+  },
+  "codigo_promo": "PROMO-005",
+  "nombre": "2x1 Farmacia",
+  "descripcion": "Lleva 2 vitaminas al precio de 1",
+  "tipo": "2x1",
+  "descuento_pct": 50,
+  "productos_aplicados": [
+    "FARM-001",
+    "FARM-002"
+  ],
+  "fecha_inicio": {
+    "$date": "2026-06-01T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-06-07T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    1001,
+    1002,
+    1003,
+    1004
+  ],
+  "activa": true,
+  "creado_por": "EMP-004"
+},
+{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc58"
+  },
+  "codigo_promo": "PROMO-006",
+  "nombre": "Super Ahorro Hogar",
+  "descripcion": "Descuento en articulos para el hogar",
+  "tipo": "rollback",
+  "descuento_pct": 20,
+  "productos_aplicados": [
+    "HOGAR-001",
+    "HOGAR-003",
+    "HOGAR-005"
+  ],
+  "fecha_inicio": {
+    "$date": "2026-05-01T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-05-31T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    1001,
+    1002,
+    1003,
+    1004,
+    9001
+  ],
+  "activa": false,
+  "creado_por": "EMP-002"
+},
+{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc59"
+  },
+  "codigo_promo": "PROMO-007",
+  "nombre": "Dia del Nino Juguetes",
+  "descripcion": "Especial dia del nino en juguetes seleccionados",
+  "tipo": "precio_especial",
+  "descuento_pct": 25,
+  "productos_aplicados": [
+    "JUG-001",
+    "JUG-002",
+    "JUG-003",
+    "JUG-004"
+  ],
+  "fecha_inicio": {
+    "$date": "2026-06-01T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-06-10T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    1001,
+    1002,
+    1003,
+    1004,
+    9001
+  ],
+  "activa": true,
+  "creado_por": "EMP-003"
+},
+{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc5a"
+  },
+  "codigo_promo": "PROMO-008",
+  "nombre": "Envio Gratis Online",
+  "descripcion": "Envio gratis en compras mayores a $50 en linea",
+  "tipo": "envio_gratis",
+  "descuento_pct": 0,
+  "monto_minimo": 50,
+  "productos_aplicados": [],
+  "fecha_inicio": {
+    "$date": "2026-01-01T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-12-31T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    9001
+  ],
+  "activa": true,
+  "creado_por": "EMP-005"
+},
+{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc5b"
+  },
+  "codigo_promo": "PROMO-009",
+  "nombre": "Rollback Deportes",
+  "descripcion": "Precios reducidos en equipos deportivos",
+  "tipo": "rollback",
+  "descuento_pct": 18,
+  "productos_aplicados": [
+    "DEP-001",
+    "DEP-002",
+    "DEP-004"
+  ],
+  "fecha_inicio": {
+    "$date": "2026-06-01T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-06-30T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    1001,
+    1002,
+    1003,
+    1004
+  ],
+  "activa": true,
+  "creado_por": "EMP-004"
+},
+{
+  "_id": {
+    "$oid": "6a1fa8155225ef29758ecc5c"
+  },
+  "codigo_promo": "PROMO-010",
+  "nombre": "Black Friday Anticipado",
+  "descripcion": "Descuentos anticipados de Black Friday en electronica premium",
+  "tipo": "black_friday",
+  "descuento_pct": 35,
+  "productos_aplicados": [
+    "ELEC-002",
+    "ELEC-004",
+    "ELEC-008"
+  ],
+  "fecha_inicio": {
+    "$date": "2026-11-20T00:00:00.000Z"
+  },
+  "fecha_fin": {
+    "$date": "2026-11-30T00:00:00.000Z"
+  },
+  "sucursales_aplicadas": [
+    1001,
+    1002,
+    1003,
+    1004,
+    9001
+  ],
+  "activa": false,
+  "creado_por": "EMP-001"
+}]

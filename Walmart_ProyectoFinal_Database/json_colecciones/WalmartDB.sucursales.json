@@ -1,0 +1,453 @@
+[{
+  "_id": {
+    "$oid": "6a1fa7d05225ef29758ecbdb"
+  },
+  "numero_tienda": 1001,
+  "nombre_sucursal": "Walmart Supercenter Santa Ana",
+  "canal": "fisica",
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      -89.5632,
+      13.9942
+    ],
+    "ciudad": "Santa Ana",
+    "departamento": "Santa Ana",
+    "pais": "El Salvador"
+  },
+  "contacto": {
+    "telefono": "2441-0000",
+    "email": "santaana@walmart.com.sv",
+    "gerente": "Carlos Mendoza"
+  },
+  "horario": {
+    "lunes_viernes": "6:00 AM - 11:00 PM",
+    "sabado_domingo": "7:00 AM - 10:00 PM"
+  },
+  "inventario": [
+    {
+      "sku": "ELEC-001",
+      "cantidad_disponible": 15,
+      "pasillo": "A1"
+    },
+    {
+      "sku": "ELEC-002",
+      "cantidad_disponible": 8,
+      "pasillo": "A2"
+    },
+    {
+      "sku": "ALIM-001",
+      "cantidad_disponible": 120,
+      "pasillo": "C3"
+    },
+    {
+      "sku": "ALIM-004",
+      "cantidad_disponible": 200,
+      "pasillo": "C1"
+    },
+    {
+      "sku": "ROPA-001",
+      "cantidad_disponible": 50,
+      "pasillo": "D2"
+    },
+    {
+      "sku": "HOGAR-001",
+      "cantidad_disponible": 30,
+      "pasillo": "E1"
+    },
+    {
+      "sku": "JUG-001",
+      "cantidad_disponible": 25,
+      "pasillo": "F3"
+    },
+    {
+      "sku": "DEP-001",
+      "cantidad_disponible": 10,
+      "pasillo": "G1"
+    },
+    {
+      "sku": "FARM-001",
+      "cantidad_disponible": 80,
+      "pasillo": "H2"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a1fa7d05225ef29758ecbdc"
+  },
+  "numero_tienda": 1002,
+  "nombre_sucursal": "Walmart Supercenter San Salvador Multiplaza",
+  "canal": "fisica",
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      -89.2182,
+      13.6929
+    ],
+    "ciudad": "San Salvador",
+    "departamento": "San Salvador",
+    "pais": "El Salvador"
+  },
+  "contacto": {
+    "telefono": "2234-0000",
+    "email": "multiplaza@walmart.com.sv",
+    "gerente": "Maria Reyes"
+  },
+  "horario": {
+    "lunes_viernes": "7:00 AM - 10:00 PM",
+    "sabado_domingo": "8:00 AM - 9:00 PM"
+  },
+  "inventario": [
+    {
+      "sku": "ELEC-003",
+      "cantidad_disponible": 22,
+      "pasillo": "A3"
+    },
+    {
+      "sku": "ELEC-004",
+      "cantidad_disponible": 12,
+      "pasillo": "A4"
+    },
+    {
+      "sku": "ALIM-002",
+      "cantidad_disponible": 95,
+      "pasillo": "C2"
+    },
+    {
+      "sku": "ALIM-006",
+      "cantidad_disponible": 60,
+      "pasillo": "C4"
+    },
+    {
+      "sku": "ROPA-002",
+      "cantidad_disponible": 40,
+      "pasillo": "D1"
+    },
+    {
+      "sku": "HOGAR-003",
+      "cantidad_disponible": 18,
+      "pasillo": "E3"
+    },
+    {
+      "sku": "JUG-002",
+      "cantidad_disponible": 14,
+      "pasillo": "F1"
+    },
+    {
+      "sku": "DEP-002",
+      "cantidad_disponible": 35,
+      "pasillo": "G2"
+    },
+    {
+      "sku": "FARM-002",
+      "cantidad_disponible": 110,
+      "pasillo": "H1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a1fa7d05225ef29758ecbdd"
+  },
+  "numero_tienda": 1003,
+  "nombre_sucursal": "Walmart Supercenter San Miguel",
+  "canal": "fisica",
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      -88.1772,
+      13.4833
+    ],
+    "ciudad": "San Miguel",
+    "departamento": "San Miguel",
+    "pais": "El Salvador"
+  },
+  "contacto": {
+    "telefono": "2661-0000",
+    "email": "sanmiguel@walmart.com.sv",
+    "gerente": "Jorge Flores"
+  },
+  "horario": {
+    "lunes_viernes": "6:00 AM - 10:00 PM",
+    "sabado_domingo": "7:00 AM - 9:00 PM"
+  },
+  "inventario": [
+    {
+      "sku": "ELEC-005",
+      "cantidad_disponible": 20,
+      "pasillo": "A1"
+    },
+    {
+      "sku": "ELEC-007",
+      "cantidad_disponible": 17,
+      "pasillo": "A3"
+    },
+    {
+      "sku": "ALIM-003",
+      "cantidad_disponible": 75,
+      "pasillo": "C1"
+    },
+    {
+      "sku": "ALIM-007",
+      "cantidad_disponible": 150,
+      "pasillo": "C3"
+    },
+    {
+      "sku": "ROPA-003",
+      "cantidad_disponible": 45,
+      "pasillo": "D3"
+    },
+    {
+      "sku": "HOGAR-005",
+      "cantidad_disponible": 28,
+      "pasillo": "E2"
+    },
+    {
+      "sku": "JUG-003",
+      "cantidad_disponible": 60,
+      "pasillo": "F2"
+    },
+    {
+      "sku": "DEP-003",
+      "cantidad_disponible": 22,
+      "pasillo": "G3"
+    },
+    {
+      "sku": "FARM-003",
+      "cantidad_disponible": 90,
+      "pasillo": "H3"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a1fa7d05225ef29758ecbde"
+  },
+  "numero_tienda": 1004,
+  "nombre_sucursal": "Walmart Supercenter Sonsonate",
+  "canal": "fisica",
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      -89.7248,
+      13.7196
+    ],
+    "ciudad": "Sonsonate",
+    "departamento": "Sonsonate",
+    "pais": "El Salvador"
+  },
+  "contacto": {
+    "telefono": "2451-0000",
+    "email": "sonsonate@walmart.com.sv",
+    "gerente": "Ana Gutierrez"
+  },
+  "horario": {
+    "lunes_viernes": "7:00 AM - 10:00 PM",
+    "sabado_domingo": "8:00 AM - 9:00 PM"
+  },
+  "inventario": [
+    {
+      "sku": "ELEC-006",
+      "cantidad_disponible": 9,
+      "pasillo": "A2"
+    },
+    {
+      "sku": "ELEC-008",
+      "cantidad_disponible": 5,
+      "pasillo": "A4"
+    },
+    {
+      "sku": "ALIM-005",
+      "cantidad_disponible": 130,
+      "pasillo": "C2"
+    },
+    {
+      "sku": "ALIM-008",
+      "cantidad_disponible": 85,
+      "pasillo": "C4"
+    },
+    {
+      "sku": "ROPA-004",
+      "cantidad_disponible": 38,
+      "pasillo": "D2"
+    },
+    {
+      "sku": "HOGAR-002",
+      "cantidad_disponible": 42,
+      "pasillo": "E1"
+    },
+    {
+      "sku": "JUG-004",
+      "cantidad_disponible": 33,
+      "pasillo": "F1"
+    },
+    {
+      "sku": "DEP-004",
+      "cantidad_disponible": 7,
+      "pasillo": "G1"
+    },
+    {
+      "sku": "FARM-004",
+      "cantidad_disponible": 25,
+      "pasillo": "H2"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a1fa7d05225ef29758ecbdf"
+  },
+  "numero_tienda": 9001,
+  "nombre_sucursal": "Walmart Centro de Distribucion Online El Salvador",
+  "canal": "online",
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      -89.2,
+      13.7
+    ],
+    "ciudad": "San Salvador",
+    "departamento": "San Salvador",
+    "pais": "El Salvador"
+  },
+  "contacto": {
+    "telefono": "2200-9001",
+    "email": "ecommerce@walmart.com.sv",
+    "gerente": "Roberto Perez"
+  },
+  "horario": {
+    "operacion": "24/7"
+  },
+  "inventario": [
+    {
+      "sku": "ELEC-001",
+      "cantidad_disponible": 50,
+      "pasillo": "BODEGA-A"
+    },
+    {
+      "sku": "ELEC-002",
+      "cantidad_disponible": 30,
+      "pasillo": "BODEGA-A"
+    },
+    {
+      "sku": "ELEC-003",
+      "cantidad_disponible": 45,
+      "pasillo": "BODEGA-A"
+    },
+    {
+      "sku": "ELEC-004",
+      "cantidad_disponible": 25,
+      "pasillo": "BODEGA-A"
+    },
+    {
+      "sku": "ALIM-001",
+      "cantidad_disponible": 300,
+      "pasillo": "BODEGA-C"
+    },
+    {
+      "sku": "ALIM-004",
+      "cantidad_disponible": 500,
+      "pasillo": "BODEGA-C"
+    },
+    {
+      "sku": "ROPA-001",
+      "cantidad_disponible": 150,
+      "pasillo": "BODEGA-D"
+    },
+    {
+      "sku": "HOGAR-001",
+      "cantidad_disponible": 80,
+      "pasillo": "BODEGA-E"
+    },
+    {
+      "sku": "JUG-001",
+      "cantidad_disponible": 70,
+      "pasillo": "BODEGA-F"
+    },
+    {
+      "sku": "DEP-001",
+      "cantidad_disponible": 40,
+      "pasillo": "BODEGA-G"
+    },
+    {
+      "sku": "FARM-001",
+      "cantidad_disponible": 200,
+      "pasillo": "BODEGA-H"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a1faec6f7a4f6219b3f25d7"
+  },
+  "numero_tienda": 1007,
+  "nombre_sucursal": "Walmart Supercenter Santa Elena",
+  "canal": "fisica",
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      -89.2455,
+      13.6661
+    ],
+    "ciudad": "Antiguo Cuscatlan",
+    "departamento": "La Libertad",
+    "pais": "El Salvador"
+  },
+  "contacto": {
+    "telefono": "2500-1100",
+    "email": "santaelena@walmart.com.sv",
+    "gerente": "Gabriela Quintanilla"
+  },
+  "horario": {
+    "lunes_viernes": "6:00 AM - 10:00 PM",
+    "sabado_domingo": "7:00 AM - 9:00 PM"
+  },
+  "inventario": [
+    {
+      "sku": "ELEC-002",
+      "cantidad_disponible": 14,
+      "pasillo": "A2"
+    },
+    {
+      "sku": "ELEC-006",
+      "cantidad_disponible": 11,
+      "pasillo": "A4"
+    },
+    {
+      "sku": "ALIM-001",
+      "cantidad_disponible": 95,
+      "pasillo": "C1"
+    },
+    {
+      "sku": "ALIM-005",
+      "cantidad_disponible": 180,
+      "pasillo": "C2"
+    },
+    {
+      "sku": "ROPA-002",
+      "cantidad_disponible": 35,
+      "pasillo": "D1"
+    },
+    {
+      "sku": "HOGAR-001",
+      "cantidad_disponible": 40,
+      "pasillo": "E1"
+    },
+    {
+      "sku": "JUG-001",
+      "cantidad_disponible": 50,
+      "pasillo": "F1"
+    },
+    {
+      "sku": "DEP-002",
+      "cantidad_disponible": 18,
+      "pasillo": "G2"
+    },
+    {
+      "sku": "FARM-001",
+      "cantidad_disponible": 110,
+      "pasillo": "H1"
+    }
+  ]
+}]

@@ -1,0 +1,14 @@
+db.createCollection("categorias")
+
+db.categorias.insertMany([
+  { codigo_categoria: "CAT-001", nombre: "Electronica", descripcion: "Televisores, laptops, tablets, audifonos y accesorios tecnologicos", departamento: "Tecnologia", icono: "💻", activa: true, productos_totales: 8, subcategorias: ["Televisores", "Computadoras", "Audio", "Camaras", "Wearables", "Impresoras"] },
+  { codigo_categoria: "CAT-002", nombre: "Alimentos", descripcion: "Productos alimenticios, bebidas, lacteos, cereales y conservas", departamento: "Grocery", icono: "🛒", activa: true, productos_totales: 8, subcategorias: ["Lacteos", "Cereales", "Bebidas", "Aceites", "Panaderia", "Cafe y Te"] },
+  { codigo_categoria: "CAT-003", nombre: "Ropa", descripcion: "Ropa para hombre, mujer y ninos, calzado y accesorios de moda", departamento: "Moda", icono: "👕", activa: true, productos_totales: 6, subcategorias: ["Hombre", "Mujer", "Ninos", "Calzado", "Ropa Interior"] },
+  { codigo_categoria: "CAT-004", nombre: "Hogar", descripcion: "Articulos para el hogar, cocina, limpieza y decoracion", departamento: "Home", icono: "🏠", activa: true, productos_totales: 6, subcategorias: ["Cocina", "Dormitorio", "Limpieza", "Iluminacion", "Organizacion"] },
+  { codigo_categoria: "CAT-005", nombre: "Juguetes", descripcion: "Juguetes educativos y de entretenimiento para todas las edades", departamento: "Toys", icono: "🧸", activa: true, productos_totales: 4, subcategorias: ["Construccion", "Munecas", "Vehiculos", "Accion"] },
+  { codigo_categoria: "CAT-006", nombre: "Deportes", descripcion: "Equipos deportivos, ropa activa y accesorios fitness", departamento: "Sports", icono: "⚽", activa: true, productos_totales: 4, subcategorias: ["Ciclismo", "Fitness", "Baloncesto", "Yoga"] },
+  { codigo_categoria: "CAT-007", nombre: "Farmacia", descripcion: "Medicamentos, vitaminas, cuidado personal y salud", departamento: "Health", icono: "💊", activa: true, productos_totales: 4, subcategorias: ["Vitaminas", "Medicamentos", "Cuidado Solar", "Diagnostico"] },
+  { codigo_categoria: "CAT-008", nombre: "Automotriz", descripcion: "Accesorios y productos para vehiculos", departamento: "Auto", icono: "🚗", activa: true, productos_totales: 0, subcategorias: ["Aceites", "Accesorios", "Llantas", "Audio para Auto"] },
+  { codigo_categoria: "CAT-009", nombre: "Jardineria", descripcion: "Plantas, herramientas y accesorios para jardin", departamento: "Garden", icono: "🌱", activa: true, productos_totales: 0, subcategorias: ["Plantas", "Herramientas", "Fertilizantes", "Riego"] },
+  { codigo_categoria: "CAT-010", nombre: "Mascotas", descripcion: "Alimentos, accesorios y cuidado para mascotas", departamento: "Pets", icono: "🐾", activa: true, productos_totales: 0, subcategorias: ["Perros", "Gatos", "Aves", "Acuarios"] }
+])

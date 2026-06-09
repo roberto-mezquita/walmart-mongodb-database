@@ -1,0 +1,454 @@
+[
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd01"
+    },
+    "codigo_devolucion": "DVL-0001",
+    "ticket_id": "TKT-0004",
+    "cliente_id": "emerson.padilla25@itca.edu.sv",
+    "sucursal_id": 9001,
+    "canal_compra": "online",
+    "canal_devolucion": "online",
+    "fecha_compra": {
+      "$date": "2025-01-15T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2025-01-20T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2025-01-22T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "ELEC-002",
+        "nombre": "Laptop HP 15.6\" Intel Core i5",
+        "cantidad": 1,
+        "precio_unitario": 549,
+        "motivo": "Equipo no enciende",
+        "condicion_producto": "defectuoso",
+        "monto_reembolso": 549
+      }
+    ],
+    "motivo_general": "producto_defectuoso",
+    "metodo_reembolso": "tarjeta_debito",
+    "monto_total": 549,
+    "estado": "reembolsada",
+    "requiere_inspeccion": true,
+    "empleado_autoriza": "EMP-005",
+    "observaciones": "Reembolso completo aprobado despues de diagnostico tecnico."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd02"
+    },
+    "codigo_devolucion": "DVL-0002",
+    "ticket_id": "TKT-0008",
+    "cliente_id": "diana.reyes@hotmail.com",
+    "sucursal_id": 9001,
+    "canal_compra": "online",
+    "canal_devolucion": "tienda",
+    "fecha_compra": {
+      "$date": "2025-02-05T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2025-02-10T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2025-02-10T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "HOGAR-004",
+        "nombre": "Lampara de Escritorio LED Mainstays",
+        "cantidad": 1,
+        "precio_unitario": 12.97,
+        "motivo": "Color recibido no solicitado",
+        "condicion_producto": "nuevo",
+        "monto_reembolso": 12.97
+      }
+    ],
+    "motivo_general": "producto_incorrecto",
+    "metodo_reembolso": "saldo_tienda",
+    "monto_total": 12.97,
+    "estado": "reembolsada",
+    "requiere_inspeccion": false,
+    "empleado_autoriza": "EMP-003",
+    "observaciones": "Cliente acepto saldo de tienda para compra posterior."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd03"
+    },
+    "codigo_devolucion": "DVL-0003",
+    "ticket_id": "TKT-0010",
+    "cliente_id": "silvia.morales@gmail.com",
+    "sucursal_id": 9001,
+    "canal_compra": "online",
+    "canal_devolucion": "online",
+    "fecha_compra": {
+      "$date": "2025-02-14T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2025-02-18T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2025-02-19T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "FARM-003",
+        "nombre": "Protector Solar Neutrogena SPF 50",
+        "cantidad": 1,
+        "precio_unitario": 11.97,
+        "motivo": "Empaque llego derramado",
+        "condicion_producto": "danado",
+        "monto_reembolso": 11.97
+      }
+    ],
+    "motivo_general": "danado_en_transporte",
+    "metodo_reembolso": "paypal",
+    "monto_total": 11.97,
+    "estado": "reembolsada",
+    "requiere_inspeccion": true,
+    "empleado_autoriza": "EMP-005",
+    "observaciones": "Se adjuntaron fotografias del producto danado."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd04"
+    },
+    "codigo_devolucion": "DVL-0004",
+    "ticket_id": "TKT-0015",
+    "cliente_id": "francisco.orellana@gmail.com",
+    "sucursal_id": 1003,
+    "canal_compra": "fisica",
+    "canal_devolucion": "tienda",
+    "fecha_compra": {
+      "$date": "2025-03-10T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2025-03-12T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2025-03-12T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "ROPA-005",
+        "nombre": "Sudadera con Capucha Hanes Hombre",
+        "cantidad": 1,
+        "precio_unitario": 16.98,
+        "motivo": "Talla no adecuada",
+        "condicion_producto": "nuevo",
+        "monto_reembolso": 16.98
+      }
+    ],
+    "motivo_general": "cambio_de_talla",
+    "metodo_reembolso": "efectivo",
+    "monto_total": 16.98,
+    "estado": "reembolsada",
+    "requiere_inspeccion": false,
+    "empleado_autoriza": "EMP-012",
+    "observaciones": "Producto con etiquetas y ticket original."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd05"
+    },
+    "codigo_devolucion": "DVL-0005",
+    "ticket_id": "TKT-0024",
+    "cliente_id": "patricia.diaz@gmail.com",
+    "sucursal_id": 9001,
+    "canal_compra": "online",
+    "canal_devolucion": "online",
+    "fecha_compra": {
+      "$date": "2025-04-25T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2025-04-28T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2025-04-30T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "ELEC-005",
+        "nombre": "Impresora HP DeskJet 2755e",
+        "cantidad": 1,
+        "precio_unitario": 69,
+        "motivo": "Falta cable de energia",
+        "condicion_producto": "incompleto",
+        "monto_reembolso": 69
+      }
+    ],
+    "motivo_general": "producto_incompleto",
+    "metodo_reembolso": "tarjeta_credito",
+    "monto_total": 69,
+    "estado": "reembolsada",
+    "requiere_inspeccion": true,
+    "empleado_autoriza": "EMP-005",
+    "observaciones": "Se genero guia de retorno y reembolso completo."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd06"
+    },
+    "codigo_devolucion": "DVL-0006",
+    "ticket_id": "TKT-0027",
+    "cliente_id": "mario.campos@gmail.com",
+    "sucursal_id": 1001,
+    "canal_compra": "fisica",
+    "canal_devolucion": "tienda",
+    "fecha_compra": {
+      "$date": "2025-05-12T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2025-05-14T00:00:00.000Z"
+    },
+    "fecha_resolucion": null,
+    "productos": [
+      {
+        "sku": "FARM-004",
+        "nombre": "Termometro Digital Braun ThermoScan",
+        "cantidad": 1,
+        "precio_unitario": 39.97,
+        "motivo": "Lectura inconsistente",
+        "condicion_producto": "defectuoso",
+        "monto_reembolso": 39.97
+      }
+    ],
+    "motivo_general": "garantia",
+    "metodo_reembolso": "tarjeta_regalo",
+    "monto_total": 39.97,
+    "estado": "en_revision",
+    "requiere_inspeccion": true,
+    "empleado_autoriza": null,
+    "observaciones": "Pendiente de validacion con proveedor."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd07"
+    },
+    "codigo_devolucion": "DVL-0007",
+    "ticket_id": "TKT-0032",
+    "cliente_id": "jorge.melara@gmail.com",
+    "sucursal_id": 9001,
+    "canal_compra": "online",
+    "canal_devolucion": "online",
+    "fecha_compra": {
+      "$date": "2026-01-22T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2026-01-27T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2026-01-29T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "ELEC-007",
+        "nombre": "Bocina Bluetooth JBL Charge 5",
+        "cantidad": 1,
+        "precio_unitario": 149,
+        "motivo": "Golpe visible en transporte",
+        "condicion_producto": "danado",
+        "monto_reembolso": 149
+      }
+    ],
+    "motivo_general": "danado_en_transporte",
+    "metodo_reembolso": "paypal",
+    "monto_total": 149,
+    "estado": "reembolsada",
+    "requiere_inspeccion": true,
+    "empleado_autoriza": "EMP-005",
+    "observaciones": "Transportista acepto incidencia de entrega."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd08"
+    },
+    "codigo_devolucion": "DVL-0008",
+    "ticket_id": "TKT-0035",
+    "cliente_id": "nelson.chavez@yahoo.com",
+    "sucursal_id": 1002,
+    "canal_compra": "fisica",
+    "canal_devolucion": "tienda",
+    "fecha_compra": {
+      "$date": "2026-03-03T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2026-03-05T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2026-03-05T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "JUG-001",
+        "nombre": "LEGO Classic Ladrillos Creativos",
+        "cantidad": 1,
+        "precio_unitario": 34.97,
+        "motivo": "Compra duplicada",
+        "condicion_producto": "nuevo",
+        "monto_reembolso": 34.97
+      }
+    ],
+    "motivo_general": "cliente_cambio_opinion",
+    "metodo_reembolso": "tarjeta_debito",
+    "monto_total": 34.97,
+    "estado": "reembolsada",
+    "requiere_inspeccion": false,
+    "empleado_autoriza": "EMP-008",
+    "observaciones": "Devolucion dentro de politica de 30 dias."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd09"
+    },
+    "codigo_devolucion": "DVL-0009",
+    "ticket_id": "TKT-0037",
+    "cliente_id": "raul.villalta@gmail.com",
+    "sucursal_id": 1004,
+    "canal_compra": "fisica",
+    "canal_devolucion": "tienda",
+    "fecha_compra": {
+      "$date": "2026-04-08T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2026-04-09T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2026-04-09T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "ALIM-004",
+        "nombre": "Leche Entera Great Value 1 Galon",
+        "cantidad": 2,
+        "precio_unitario": 3.78,
+        "motivo": "Producto derramado",
+        "condicion_producto": "danado",
+        "monto_reembolso": 7.56
+      }
+    ],
+    "motivo_general": "calidad_producto",
+    "metodo_reembolso": "efectivo",
+    "monto_total": 7.56,
+    "estado": "reembolsada",
+    "requiere_inspeccion": true,
+    "empleado_autoriza": "EMP-014",
+    "observaciones": "Se retiro producto de anaquel para revision."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd10"
+    },
+    "codigo_devolucion": "DVL-0010",
+    "ticket_id": "TKT-0038",
+    "cliente_id": "stephanie.perez@yahoo.com",
+    "sucursal_id": 9001,
+    "canal_compra": "online",
+    "canal_devolucion": "online",
+    "fecha_compra": {
+      "$date": "2026-04-25T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2026-04-25T00:00:00.000Z"
+    },
+    "fecha_resolucion": null,
+    "productos": [
+      {
+        "sku": "HOGAR-003",
+        "nombre": "Aspiradora Bissell CleanView 2252",
+        "cantidad": 1,
+        "precio_unitario": 59,
+        "motivo": "Cancelacion antes del despacho",
+        "condicion_producto": "sin_despachar",
+        "monto_reembolso": 59
+      }
+    ],
+    "motivo_general": "cancelacion_cliente",
+    "metodo_reembolso": "tarjeta_credito",
+    "monto_total": 59,
+    "estado": "pendiente_revision",
+    "requiere_inspeccion": false,
+    "empleado_autoriza": null,
+    "observaciones": "Solicitud creada antes de asignar transportista."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd11"
+    },
+    "codigo_devolucion": "DVL-0011",
+    "ticket_id": "TKT-0022",
+    "cliente_id": "lorena.sandoval@gmail.com",
+    "sucursal_id": 9001,
+    "canal_compra": "online",
+    "canal_devolucion": "tienda",
+    "fecha_compra": {
+      "$date": "2025-04-15T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2025-05-25T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2025-05-26T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "JUG-004",
+        "nombre": "Nerf Elite 2.0 Commander RD-6",
+        "cantidad": 1,
+        "precio_unitario": 14.97,
+        "motivo": "Producto abierto y sin accesorios",
+        "condicion_producto": "incompleto_usado",
+        "monto_reembolso": 0
+      }
+    ],
+    "motivo_general": "fuera_de_politica",
+    "metodo_reembolso": "no_aplica",
+    "monto_total": 0,
+    "estado": "rechazada",
+    "requiere_inspeccion": true,
+    "empleado_autoriza": "EMP-009",
+    "observaciones": "Solicitud fuera de plazo y producto incompleto."
+  },
+  {
+    "_id": {
+      "$oid": "6a1fb1005225ef29758ecd12"
+    },
+    "codigo_devolucion": "DVL-0012",
+    "ticket_id": "TKT-0040",
+    "cliente_id": "emerson.padilla25@itca.edu.sv",
+    "sucursal_id": 9001,
+    "canal_compra": "online",
+    "canal_devolucion": "online",
+    "fecha_compra": {
+      "$date": "2026-05-28T00:00:00.000Z"
+    },
+    "fecha_solicitud": {
+      "$date": "2026-05-29T00:00:00.000Z"
+    },
+    "fecha_resolucion": {
+      "$date": "2026-05-29T00:00:00.000Z"
+    },
+    "productos": [
+      {
+        "sku": "ELEC-006",
+        "nombre": "Smart Watch Fitbit Versa 4",
+        "cantidad": 1,
+        "precio_unitario": 199,
+        "motivo": "Cancelacion parcial antes de despacho",
+        "condicion_producto": "sin_despachar",
+        "monto_reembolso": 199
+      }
+    ],
+    "motivo_general": "cancelacion_cliente",
+    "metodo_reembolso": "paypal",
+    "monto_total": 199,
+    "estado": "aprobada",
+    "requiere_inspeccion": false,
+    "empleado_autoriza": "EMP-005",
+    "observaciones": "Pedido online aun pendiente; se cancela un articulo."
+  }
+]

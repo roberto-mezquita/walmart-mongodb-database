@@ -1,0 +1,739 @@
+[{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbb3"
+  },
+  "sku": "ELEC-001",
+  "nombre": "Televisor Samsung 55\"",
+  "categoria": "Electronica",
+  "marca": "Samsung",
+  "precio_venta": 498,
+  "proveedor": "Samsung Electronics",
+  "imagen_url": "https://i5.walmartimages.com/tv-samsung-55.jpg",
+  "especificaciones": {
+    "pantalla_pulgadas": 55,
+    "resolucion": "4K UHD",
+    "smart_tv": true,
+    "hdmi_ports": 3
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbb4"
+  },
+  "sku": "ELEC-002",
+  "nombre": "Laptop HP 15.6\" Intel Core i5",
+  "categoria": "Electronica",
+  "marca": "HP",
+  "precio_venta": 549,
+  "proveedor": "HP Inc.",
+  "imagen_url": "https://i5.walmartimages.com/laptop-hp.jpg",
+  "especificaciones": {
+    "pantalla_pulgadas": 15.6,
+    "ram_gb": 8,
+    "almacenamiento_gb": 512,
+    "procesador": "Intel Core i5"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbb5"
+  },
+  "sku": "ELEC-003",
+  "nombre": "Audífonos Sony WH-1000XM5",
+  "categoria": "Electronica",
+  "marca": "Sony",
+  "precio_venta": 279,
+  "proveedor": "Sony Corporation",
+  "imagen_url": "https://i5.walmartimages.com/audifonos-sony.jpg",
+  "especificaciones": {
+    "tipo": "Over-ear",
+    "cancelacion_ruido": true,
+    "bateria_horas": 30,
+    "bluetooth": "5.2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbb6"
+  },
+  "sku": "ELEC-004",
+  "nombre": "iPad Apple 10.9\" Wi-Fi 64GB",
+  "categoria": "Electronica",
+  "marca": "Apple",
+  "precio_venta": 449,
+  "proveedor": "Apple Inc.",
+  "imagen_url": "https://i5.walmartimages.com/ipad-apple.jpg",
+  "especificaciones": {
+    "pantalla_pulgadas": 10.9,
+    "almacenamiento_gb": 64,
+    "wifi": true,
+    "color": "Plata"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbb7"
+  },
+  "sku": "ELEC-005",
+  "nombre": "Impresora HP DeskJet 2755e",
+  "categoria": "Electronica",
+  "marca": "HP",
+  "precio_venta": 69,
+  "proveedor": "HP Inc.",
+  "imagen_url": "https://i5.walmartimages.com/impresora-hp.jpg",
+  "especificaciones": {
+    "tipo": "Inyeccion de tinta",
+    "wifi": true,
+    "color": true,
+    "ppm": 7
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbb8"
+  },
+  "sku": "ELEC-006",
+  "nombre": "Smart Watch Fitbit Versa 4",
+  "categoria": "Electronica",
+  "marca": "Fitbit",
+  "precio_venta": 199,
+  "proveedor": "Google LLC",
+  "imagen_url": "https://i5.walmartimages.com/fitbit-versa4.jpg",
+  "especificaciones": {
+    "pantalla_pulgadas": 1.58,
+    "gps": true,
+    "bateria_dias": 6,
+    "resistencia_agua": "50m"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbb9"
+  },
+  "sku": "ELEC-007",
+  "nombre": "Bocina Bluetooth JBL Charge 5",
+  "categoria": "Electronica",
+  "marca": "JBL",
+  "precio_venta": 149,
+  "proveedor": "Harman International",
+  "imagen_url": "https://i5.walmartimages.com/jbl-charge5.jpg",
+  "especificaciones": {
+    "potencia_watts": 30,
+    "bateria_horas": 20,
+    "resistente_agua": true,
+    "bluetooth": "5.1"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbba"
+  },
+  "sku": "ELEC-008",
+  "nombre": "Camara Canon EOS Rebel SL3",
+  "categoria": "Electronica",
+  "marca": "Canon",
+  "precio_venta": 749,
+  "proveedor": "Canon USA",
+  "imagen_url": "https://i5.walmartimages.com/canon-sl3.jpg",
+  "especificaciones": {
+    "megapixeles": 24.1,
+    "video_4k": true,
+    "pantalla_tactil": true,
+    "tipo": "DSLR"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbbb"
+  },
+  "sku": "ALIM-001",
+  "nombre": "Yogurt Greek Chobani Fresa 32oz",
+  "categoria": "Alimentos",
+  "marca": "Chobani",
+  "precio_venta": 6.48,
+  "proveedor": "Chobani LLC",
+  "imagen_url": "https://i5.walmartimages.com/chobani-greek.jpg",
+  "especificaciones": {
+    "peso_oz": 32,
+    "sabor": "Fresa",
+    "calorias_por_porcion": 130,
+    "proteina_g": 17,
+    "fecha_caducidad": "2025-09-15"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbbc"
+  },
+  "sku": "ALIM-002",
+  "nombre": "Cereal Cheerios Honey Nut 18.8oz",
+  "categoria": "Alimentos",
+  "marca": "General Mills",
+  "precio_venta": 4.98,
+  "proveedor": "General Mills Inc.",
+  "imagen_url": "https://i5.walmartimages.com/cheerios.jpg",
+  "especificaciones": {
+    "peso_oz": 18.8,
+    "calorias_por_porcion": 140,
+    "azucar_g": 9,
+    "fecha_caducidad": "2026-03-20"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbbd"
+  },
+  "sku": "ALIM-003",
+  "nombre": "Aceite de Oliva Bertolli 16.9oz",
+  "categoria": "Alimentos",
+  "marca": "Bertolli",
+  "precio_venta": 8.97,
+  "proveedor": "Deoleo USA",
+  "imagen_url": "https://i5.walmartimages.com/bertolli-olive.jpg",
+  "especificaciones": {
+    "volumen_oz": 16.9,
+    "tipo": "Extra Virgen",
+    "calorias_por_porcion": 120,
+    "fecha_caducidad": "2026-06-01"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbbe"
+  },
+  "sku": "ALIM-004",
+  "nombre": "Leche Entera Great Value 1 Galon",
+  "categoria": "Alimentos",
+  "marca": "Great Value",
+  "precio_venta": 3.78,
+  "proveedor": "Walmart Inc.",
+  "imagen_url": "https://i5.walmartimages.com/gv-milk.jpg",
+  "especificaciones": {
+    "volumen_galon": 1,
+    "tipo": "Entera",
+    "calorias_por_porcion": 150,
+    "calcio_pct": 25,
+    "fecha_caducidad": "2025-08-05"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbbf"
+  },
+  "sku": "ALIM-005",
+  "nombre": "Pan Integral Natures Own 20oz",
+  "categoria": "Alimentos",
+  "marca": "Natures Own",
+  "precio_venta": 3.28,
+  "proveedor": "Flowers Foods",
+  "imagen_url": "https://i5.walmartimages.com/natures-own-bread.jpg",
+  "especificaciones": {
+    "peso_oz": 20,
+    "rebanadas": 20,
+    "calorias_por_rebanada": 70,
+    "fibra_g": 2,
+    "fecha_caducidad": "2025-08-12"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc0"
+  },
+  "sku": "ALIM-006",
+  "nombre": "Cafe Folgers Classic Roast 30.5oz",
+  "categoria": "Alimentos",
+  "marca": "Folgers",
+  "precio_venta": 10.97,
+  "proveedor": "The J.M. Smucker Company",
+  "imagen_url": "https://i5.walmartimages.com/folgers-coffee.jpg",
+  "especificaciones": {
+    "peso_oz": 30.5,
+    "tipo": "Molido",
+    "intensidad": "Medio",
+    "tazas_por_envase": 240,
+    "fecha_caducidad": "2026-01-10"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc1"
+  },
+  "sku": "ALIM-007",
+  "nombre": "Pasta Barilla Spaghetti 16oz",
+  "categoria": "Alimentos",
+  "marca": "Barilla",
+  "precio_venta": 1.48,
+  "proveedor": "Barilla America",
+  "imagen_url": "https://i5.walmartimages.com/barilla-spaghetti.jpg",
+  "especificaciones": {
+    "peso_oz": 16,
+    "tipo": "Spaghetti",
+    "calorias_por_porcion": 200,
+    "proteina_g": 7,
+    "fecha_caducidad": "2027-04-30"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc2"
+  },
+  "sku": "ALIM-008",
+  "nombre": "Jugo de Naranja Tropicana 52oz",
+  "categoria": "Alimentos",
+  "marca": "Tropicana",
+  "precio_venta": 4.48,
+  "proveedor": "PepsiCo",
+  "imagen_url": "https://i5.walmartimages.com/tropicana-oj.jpg",
+  "especificaciones": {
+    "volumen_oz": 52,
+    "tipo": "Sin pulpa",
+    "vitamina_c_pct": 100,
+    "azucar_g": 22,
+    "fecha_caducidad": "2025-08-20"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc3"
+  },
+  "sku": "ROPA-001",
+  "nombre": "Camiseta Hombre Fruit of the Loom Pack 5",
+  "categoria": "Ropa",
+  "marca": "Fruit of the Loom",
+  "precio_venta": 14.97,
+  "proveedor": "Fruit of the Loom Inc.",
+  "imagen_url": "https://i5.walmartimages.com/fotl-tshirt.jpg",
+  "especificaciones": {
+    "talla": "L",
+    "color": "Blanco",
+    "material": "100% Algodon",
+    "cantidad_pack": 5,
+    "genero": "Hombre"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc4"
+  },
+  "sku": "ROPA-002",
+  "nombre": "Jeans Slim Fit Wrangler Hombre",
+  "categoria": "Ropa",
+  "marca": "Wrangler",
+  "precio_venta": 24.97,
+  "proveedor": "Kontoor Brands",
+  "imagen_url": "https://i5.walmartimages.com/wrangler-jeans.jpg",
+  "especificaciones": {
+    "talla": "32x30",
+    "color": "Azul Oscuro",
+    "material": "98% Algodon 2% Elastano",
+    "corte": "Slim",
+    "genero": "Hombre"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc5"
+  },
+  "sku": "ROPA-003",
+  "nombre": "Vestido Floral Mujer Terra & Sky",
+  "categoria": "Ropa",
+  "marca": "Terra & Sky",
+  "precio_venta": 18,
+  "proveedor": "Walmart Private Label",
+  "imagen_url": "https://i5.walmartimages.com/terra-sky-dress.jpg",
+  "especificaciones": {
+    "talla": "XL",
+    "color": "Floral Multicolor",
+    "material": "Poliester",
+    "largo": "Midi",
+    "genero": "Mujer"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc6"
+  },
+  "sku": "ROPA-004",
+  "nombre": "Tenis Deportivos Athletic Works Mujer",
+  "categoria": "Ropa",
+  "marca": "Athletic Works",
+  "precio_venta": 19.97,
+  "proveedor": "Walmart Private Label",
+  "imagen_url": "https://i5.walmartimages.com/athletic-works-shoes.jpg",
+  "especificaciones": {
+    "talla": "7.5 US",
+    "color": "Rosa/Blanco",
+    "material": "Malla sintetica",
+    "tipo": "Running",
+    "genero": "Mujer"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc7"
+  },
+  "sku": "ROPA-005",
+  "nombre": "Sudadera con Capucha Hanes Hombre",
+  "categoria": "Ropa",
+  "marca": "Hanes",
+  "precio_venta": 16.98,
+  "proveedor": "Hanesbrands Inc.",
+  "imagen_url": "https://i5.walmartimages.com/hanes-hoodie.jpg",
+  "especificaciones": {
+    "talla": "M",
+    "color": "Gris",
+    "material": "50% Algodon 50% Poliester",
+    "tipo": "Pullover",
+    "genero": "Hombre"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc8"
+  },
+  "sku": "ROPA-006",
+  "nombre": "Pijama Nina Wonder Nation 2 piezas",
+  "categoria": "Ropa",
+  "marca": "Wonder Nation",
+  "precio_venta": 9.97,
+  "proveedor": "Walmart Private Label",
+  "imagen_url": "https://i5.walmartimages.com/wonder-nation-pj.jpg",
+  "especificaciones": {
+    "talla": "4T",
+    "color": "Rosado Estrellado",
+    "material": "100% Algodon",
+    "piezas": 2,
+    "genero": "Nina"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbc9"
+  },
+  "sku": "HOGAR-001",
+  "nombre": "Sarten Antiadherente Cuisinart 12\"",
+  "categoria": "Hogar",
+  "marca": "Cuisinart",
+  "precio_venta": 29.97,
+  "proveedor": "Cuisinart",
+  "imagen_url": "https://i5.walmartimages.com/cuisinart-pan.jpg",
+  "especificaciones": {
+    "diametro_pulgadas": 12,
+    "material": "Aluminio anodizado",
+    "apto_lavavajillas": true,
+    "apto_horno": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbca"
+  },
+  "sku": "HOGAR-002",
+  "nombre": "Juego de Sabanas Queen Mainstays 4 piezas",
+  "categoria": "Hogar",
+  "marca": "Mainstays",
+  "precio_venta": 19.97,
+  "proveedor": "Walmart Private Label",
+  "imagen_url": "https://i5.walmartimages.com/mainstays-sheets.jpg",
+  "especificaciones": {
+    "tamanio": "Queen",
+    "piezas": 4,
+    "material": "Microfibra",
+    "hilo_count": 90,
+    "color": "Azul Marino"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbcb"
+  },
+  "sku": "HOGAR-003",
+  "nombre": "Aspiradora Bissell CleanView 2252",
+  "categoria": "Hogar",
+  "marca": "Bissell",
+  "precio_venta": 59,
+  "proveedor": "Bissell Inc.",
+  "imagen_url": "https://i5.walmartimages.com/bissell-vacuum.jpg",
+  "especificaciones": {
+    "tipo": "Vertical",
+    "potencia_watts": 1200,
+    "capacidad_litros": 1.5,
+    "cable_metros": 7.6
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbcc"
+  },
+  "sku": "HOGAR-004",
+  "nombre": "Lampara de Escritorio LED Mainstays",
+  "categoria": "Hogar",
+  "marca": "Mainstays",
+  "precio_venta": 12.97,
+  "proveedor": "Walmart Private Label",
+  "imagen_url": "https://i5.walmartimages.com/mainstays-lamp.jpg",
+  "especificaciones": {
+    "tipo": "LED",
+    "watts": 9,
+    "temperatura_color": "Luz Fria",
+    "flexible": true,
+    "puerto_usb": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbcd"
+  },
+  "sku": "HOGAR-005",
+  "nombre": "Cafetera Mr. Coffee 12 tazas",
+  "categoria": "Hogar",
+  "marca": "Mr. Coffee",
+  "precio_venta": 24.88,
+  "proveedor": "Newell Brands",
+  "imagen_url": "https://i5.walmartimages.com/mrcoffee-12cup.jpg",
+  "especificaciones": {
+    "capacidad_tazas": 12,
+    "programable": true,
+    "mantiene_caliente": true,
+    "filtro_permanente": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbce"
+  },
+  "sku": "HOGAR-006",
+  "nombre": "Organizador de Closet Rubbermaid 3 piezas",
+  "categoria": "Hogar",
+  "marca": "Rubbermaid",
+  "precio_venta": 89,
+  "proveedor": "Newell Brands",
+  "imagen_url": "https://i5.walmartimages.com/rubbermaid-closet.jpg",
+  "especificaciones": {
+    "piezas": 3,
+    "material": "Acero laminado",
+    "capacidad_kg": 45,
+    "color": "Blanco",
+    "ajustable": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbcf"
+  },
+  "sku": "JUG-001",
+  "nombre": "LEGO Classic Ladrillos Creativos 484 piezas",
+  "categoria": "Juguetes",
+  "marca": "LEGO",
+  "precio_venta": 34.97,
+  "proveedor": "LEGO Group",
+  "imagen_url": "https://i5.walmartimages.com/lego-classic.jpg",
+  "especificaciones": {
+    "piezas": 484,
+    "edad_minima": 4,
+    "tematica": "Creatividad libre",
+    "incluye_instrucciones": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd0"
+  },
+  "sku": "JUG-002",
+  "nombre": "Barbie Dreamhouse 2023",
+  "categoria": "Juguetes",
+  "marca": "Barbie",
+  "precio_venta": 199,
+  "proveedor": "Mattel Inc.",
+  "imagen_url": "https://i5.walmartimages.com/barbie-dreamhouse.jpg",
+  "especificaciones": {
+    "edad_minima": 3,
+    "pisos": 3,
+    "habitaciones": 8,
+    "incluye_muneca": false,
+    "altura_cm": 107
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd1"
+  },
+  "sku": "JUG-003",
+  "nombre": "Hot Wheels Pack 20 Carros",
+  "categoria": "Juguetes",
+  "marca": "Hot Wheels",
+  "precio_venta": 18.97,
+  "proveedor": "Mattel Inc.",
+  "imagen_url": "https://i5.walmartimages.com/hot-wheels-20pack.jpg",
+  "especificaciones": {
+    "cantidad": 20,
+    "edad_minima": 3,
+    "escala": "1:64",
+    "material": "Diecast metal"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd2"
+  },
+  "sku": "JUG-004",
+  "nombre": "Nerf Elite 2.0 Commander RD-6",
+  "categoria": "Juguetes",
+  "marca": "Nerf",
+  "precio_venta": 14.97,
+  "proveedor": "Hasbro Inc.",
+  "imagen_url": "https://i5.walmartimages.com/nerf-elite.jpg",
+  "especificaciones": {
+    "edad_minima": 8,
+    "dardos_incluidos": 12,
+    "capacidad_cargador": 6,
+    "alcance_metros": 27
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd3"
+  },
+  "sku": "DEP-001",
+  "nombre": "Bicicleta de Montana Hyper 26\"",
+  "categoria": "Deportes",
+  "marca": "Hyper",
+  "precio_venta": 198,
+  "proveedor": "Hyper Bicycles",
+  "imagen_url": "https://i5.walmartimages.com/hyper-bike.jpg",
+  "especificaciones": {
+    "rodada_pulgadas": 26,
+    "velocidades": 21,
+    "frenos": "V-Brake",
+    "genero": "Unisex",
+    "color": "Negro/Rojo"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd4"
+  },
+  "sku": "DEP-002",
+  "nombre": "Pelota de Baloncesto Wilson Evolution",
+  "categoria": "Deportes",
+  "marca": "Wilson",
+  "precio_venta": 49.97,
+  "proveedor": "Wilson Sporting Goods",
+  "imagen_url": "https://i5.walmartimages.com/wilson-basketball.jpg",
+  "especificaciones": {
+    "tamanio": "29.5 pulgadas",
+    "material": "Cuero compuesto",
+    "uso": "Interior",
+    "nivel": "Competencia"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd5"
+  },
+  "sku": "DEP-003",
+  "nombre": "Colchoneta de Yoga Gaiam 6mm",
+  "categoria": "Deportes",
+  "marca": "Gaiam",
+  "precio_venta": 21.98,
+  "proveedor": "Gaiam Inc.",
+  "imagen_url": "https://i5.walmartimages.com/gaiam-yogamat.jpg",
+  "especificaciones": {
+    "grosor_mm": 6,
+    "largo_cm": 173,
+    "ancho_cm": 61,
+    "material": "PVC",
+    "antideslizante": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd6"
+  },
+  "sku": "DEP-004",
+  "nombre": "Mancuernas Ajustables Bowflex 552",
+  "categoria": "Deportes",
+  "marca": "Bowflex",
+  "precio_venta": 349,
+  "proveedor": "Nautilus Inc.",
+  "imagen_url": "https://i5.walmartimages.com/bowflex-dumbbells.jpg",
+  "especificaciones": {
+    "peso_min_kg": 2.3,
+    "peso_max_kg": 24,
+    "incremento_kg": 2.3,
+    "par": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd7"
+  },
+  "sku": "FARM-001",
+  "nombre": "Vitamina C 1000mg Equate 100 tabletas",
+  "categoria": "Farmacia",
+  "marca": "Equate",
+  "precio_venta": 7.97,
+  "proveedor": "Walmart Private Label",
+  "imagen_url": "https://i5.walmartimages.com/equate-vitc.jpg",
+  "especificaciones": {
+    "miligramos": 1000,
+    "tabletas": 100,
+    "forma": "Tableta",
+    "fecha_caducidad": "2027-02-28"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd8"
+  },
+  "sku": "FARM-002",
+  "nombre": "Ibuprofeno 200mg Equate 500 capsulas",
+  "categoria": "Farmacia",
+  "marca": "Equate",
+  "precio_venta": 9.97,
+  "proveedor": "Walmart Private Label",
+  "imagen_url": "https://i5.walmartimages.com/equate-ibuprofen.jpg",
+  "especificaciones": {
+    "miligramos": 200,
+    "capsulas": 500,
+    "uso": "Dolor y fiebre",
+    "fecha_caducidad": "2026-11-15"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbd9"
+  },
+  "sku": "FARM-003",
+  "nombre": "Protector Solar Neutrogena SPF 50 3oz",
+  "categoria": "Farmacia",
+  "marca": "Neutrogena",
+  "precio_venta": 11.97,
+  "proveedor": "Johnson & Johnson",
+  "imagen_url": "https://i5.walmartimages.com/neutrogena-spf50.jpg",
+  "especificaciones": {
+    "spf": 50,
+    "volumen_oz": 3,
+    "resistente_agua": true,
+    "tipo": "Locion",
+    "para_cara": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1fa7b35225ef29758ecbda"
+  },
+  "sku": "FARM-004",
+  "nombre": "Termometro Digital Braun ThermoScan",
+  "categoria": "Farmacia",
+  "marca": "Braun",
+  "precio_venta": 39.97,
+  "proveedor": "Procter & Gamble",
+  "imagen_url": "https://i5.walmartimages.com/braun-thermometer.jpg",
+  "especificaciones": {
+    "tipo": "Oido",
+    "segundos_lectura": 1,
+    "memoria_lecturas": 9,
+    "incluye_pilas": true
+  }
+}]

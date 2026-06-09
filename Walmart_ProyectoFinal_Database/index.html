@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Walmart El Salvador – Sistema de Gestión Completo</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#f0f2f5;color:#333}
+/* HEADER */
+.header{background:linear-gradient(135deg,#0071dc 0%,#0050a0 100%);color:#fff;padding:0 24px;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.top-bar{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.2)}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-spark{font-size:28px;background:#ffc220;color:#0071dc;width:46px;height:46px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:900}
+.logo-text{font-size:22px;font-weight:700;letter-spacing:-0.5px}
+.logo-sub{font-size:11px;opacity:.8}
+.header-right{display:flex;align-items:center;gap:16px;font-size:13px}
+.header-badge{background:rgba(255,255,255,.15);border-radius:20px;padding:6px 14px;cursor:pointer}
+/* SEARCH BAR */
+.search-bar{padding:12px 0;display:flex;gap:10px}
+.search-bar input{flex:1;padding:10px 16px;border-radius:6px;border:none;font-size:14px;outline:none}
+/* NAV TABS */
+.nav-tabs{background:#fff;border-bottom:2px solid #e0e6ed;display:flex;overflow-x:auto;padding:0 24px;gap:2px}
+.tab{padding:14px 16px;cursor:pointer;font-size:13px;font-weight:600;color:#666;border-bottom:3px solid transparent;white-space:nowrap;transition:all .2s}
+.tab:hover{color:#0071dc;background:#f5f8ff}
+.tab.active{color:#0071dc;border-bottom-color:#0071dc;background:#f0f7ff}
+/* MAIN */
+.main{max-width:1350px;margin:0 auto;padding:24px}
+.section{display:none}
+.section.active{display:block}
+/* STATS CARDS */
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:24px}
+.stat-card{background:#fff;border-radius:12px;padding:18px;box-shadow:0 2px 8px rgba(0,0,0,.07);border-left:4px solid #0071dc}
+.stat-card.green{border-left-color:#00a651}
+.stat-card.yellow{border-left-color:#ffc220}
+.stat-card.red{border-left-color:#e53935}
+.stat-card.purple{border-left-color:#7b1fa2}
+.stat-card h3{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.5px}
+.stat-card .value{font-size:24px;font-weight:700;color:#0050a0;margin:4px 0}
+.stat-card .sub{font-size:11px;color:#aaa}
+/* SECTION HEADER */
+.section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.section-title{font-size:19px;font-weight:700;color:#0050a0}
+.btn-add{background:#0071dc;color:#fff;border:none;padding:9px 18px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer}
+.btn-add:hover{background:#0050a0}
+/* TABLE */
+.table-wrap{background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.07);overflow:hidden;margin-bottom:20px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead{background:#0071dc;color:#fff}
+th{padding:12px 14px;text-align:left;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.4px}
+td{padding:11px 14px;border-bottom:1px solid #f0f2f5;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#f8fbff}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600}
+.badge-green{background:#e8f5e9;color:#2e7d32}
+.badge-blue{background:#e3f2fd;color:#1565c0}
+.badge-yellow{background:#fff8e1;color:#f57f17}
+.badge-gray{background:#f5f5f5;color:#616161}
+.badge-red{background:#ffebee;color:#c62828}
+/* GRIDS */
+.promo-grid, .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.cat-card, .promo-card{background:#fff;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.07);border-top:4px solid #0071dc}
+.promo-card{border-top-color:#ffc220}
+.card-icon{font-size:32px;margin-bottom:8px}
+.card-title{font-size:16px;font-weight:700;color:#0050a0;margin-bottom:6px}
+.card-desc{font-size:12px;color:#666;margin-bottom:10px}
+.card-sub{font-size:11px;color:#888;background:#f8f9fa;padding:6px;border-radius:6px}
+.empty-msg{text-align:center;padding:30px;color:#999;font-style:italic}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="top-bar">
+    <div class="logo">
+      <div class="logo-spark">★</div>
+      <div>
+        <div class="logo-text">Walmart</div>
+        <div class="logo-sub">Sistema de Gestión Integrado – El Salvador</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="header-badge" onclick="showTab('sucursales')">🏢 <span id="badge-suc">0</span> Sucursales</div>
+      <div class="header-badge" onclick="showTab('ventas')">🛒 <span id="badge-ven">0</span> Tickets</div>
+      <div class="header-badge" style="cursor:default">👤 Admin</div>
+    </div>
+  </div>
+  <div class="search-bar">
+    <input type="text" id="globalSearch" placeholder="🔍 Filtrar registros en la vista activa..." onkeyup="filtrarTablaLocal()">
+  </div>
+</div>
+
+<div class="nav-tabs">
+  <div class="tab active" onclick="showTab('dashboard')">Dashboard</div>
+  <div class="tab" onclick="showTab('productos')">Productos</div>
+  <div class="tab" onclick="showTab('ventas')">Ventas</div>
+  <div class="tab" onclick="showTab('clientes')">Clientes</div>
+  <div class="tab" onclick="showTab('sucursales')">Sucursales</div>
+  <div class="tab" onclick="showTab('empleados')">Empleados</div>
+  <div class="tab" onclick="showTab('proveedores')">Proveedores</div>
+  <div class="tab" onclick="showTab('categorias')">Categorías</div>
+  <div class="tab" onclick="showTab('promociones')">Promociones</div>
+  <div class="tab" onclick="showTab('devoluciones')">Devoluciones</div>
+  <div class="tab" onclick="showTab('envios')">Envíos</div>
+</div>
+
+<div class="main">
+
+  <div id="sec-dashboard" class="section active">
+    <div class="stats-grid">
+      <div class="stat-card"><h3>Productos</h3><div class="value" id="card-prod">0</div><div class="sub">Catálogo activo</div></div>
+      <div class="stat-card green"><h3>Tickets Venta</h3><div class="value" id="card-ventas">0</div><div class="sub">Transacciones</div></div>
+      <div class="stat-card yellow"><h3>Clientes</h3><div class="value" id="card-cli">0</div><div class="sub">Registrados</div></div>
+      <div class="stat-card red"><h3>Proveedores</h3><div class="value" id="card-prov">0</div><div class="sub">Homologados</div></div>
+      <div class="stat-card purple"><h3>Empleados</h3><div class="value" id="card-emp">0</div><div class="sub">En nómina</div></div>
+      <div class="stat-card"><h3>Promos</h3><div class="value" id="card-promo">0</div><div class="sub">Campañas activas</div></div>
+    </div>
+    <div class="section-header" style="margin-top:12px"><div class="section-title">Últimas Ventas Procesadas en el Sistema</div></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Ticket</th><th>Canal</th><th>Cliente Asociado</th><th>Total Pagado</th><th>Estado Envío</th></tr></thead>
+        <tbody id="dash-ventas-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="sec-productos" class="section">
+    <div class="section-header"><div class="section-title" id="title-productos">Productos</div><button class="btn-add">+ Nuevo Producto</button></div>
+    <div class="table-wrap"><table><thead><tr><th>SKU</th><th>Nombre</th><th>Categoría</th><th>Marca</th><th>Precio Venta</th><th>Proveedor</th></tr></thead><tbody id="tbl-productos"></tbody></table></div>
+  </div>
+
+  <div id="sec-ventas" class="section">
+    <div class="section-header"><div class="section-title" id="title-ventas">Auditoría de Ventas</div><button class="btn-add">+ Crear Ticket</button></div>
+    <div class="table-wrap"><table><thead><tr><th>Ticket</th><th>Canal</th><th>ID Sucursal</th><th>Cliente</th><th>Método Pago</th><th>Total</th><th>Despacho</th></tr></thead><tbody id="tbl-ventas"></tbody></table></div>
+  </div>
+
+  <div id="sec-clientes" class="section">
+    <div class="section-header"><div class="section-title" id="title-clientes">Clientes</div><button class="btn-add">+ Registrar Cliente</button></div>
+    <div class="table-wrap"><table><thead><tr><th>Nombre</th><th>Correo</th><th>Teléfono</th><th>Puntos</th><th>Walmart Pass</th></tr></thead><tbody id="tbl-clientes"></tbody></table></div>
+  </div>
+
+  <div id="sec-sucursales" class="section">
+    <div class="section-header"><div class="section-title" id="title-sucursales">Sucursales</div><button class="btn-add">+ Añadir Tienda</button></div>
+    <div class="table-wrap"><table><thead><tr><th>N°</th><th>Nombre Sucursal</th><th>Canal</th><th>Ubicación</th><th>Teléfono</th><th>Gerente</th></tr></thead><tbody id="tbl-sucursales"></tbody></table></div>
+  </div>
+
+  <div id="sec-empleados" class="section">
+    <div class="section-header"><div class="section-title" id="title-empleados">Empleados</div><button class="btn-add">+ Fichar Empleado</button></div>
+    <div class="table-wrap"><table><thead><tr><th>Código</th><th>Nombre</th><th>Puesto</th><th>Sucursal</th><th>Turno</th><th>Salario</th></tr></thead><tbody id="tbl-empleados"></tbody></table></div>
+  </div>
+
+  <div id="sec-proveedores" class="section">
+    <div class="section-header"><div class="section-title" id="title-proveedores">Proveedores</div><button class="btn-add">+ Nuevo Proveedor</button></div>
+    <div class="table-wrap"><table><thead><tr><th>Código</th><th>Nombre</th><th>Origen</th><th>Especialidad</th><th>Pago</th><th>Calificación</th></tr></thead><tbody id="tbl-proveedores"></tbody></table></div>
+  </div>
+
+  <div id="sec-categorias" class="section">
+    <div class="section-header"><div class="section-title" id="title-categorias">Categorías</div></div>
+    <div class="cat-grid" id="grid-categorias"></div>
+  </div>
+
+  <div id="sec-promociones" class="section">
+    <div class="section-header"><div class="section-title" id="title-promociones">Campañas de Promoción</div></div>
+    <div class="promo-grid" id="grid-promociones"></div>
+  </div>
+
+  <div id="sec-devoluciones" class="section">
+    <div class="section-header"><div class="section-title">Control de Devoluciones</div><button class="btn-add">+ Emitir Nota</button></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Código</th><th>Ticket Ref.</th><th>Motivo</th><th>Fecha</th><th>Reembolso</th></tr></thead>
+        <tbody id="tbl-devoluciones"><tr><td colspan="5" class="empty-msg">No se encontraron registros en la colección 'devoluciones' (Colección vacía)</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="sec-envios" class="section">
+    <div class="section-header"><div class="section-title">Despacho de Envíos Logísticos</div></div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Envío ID</th><th>Ticket</th><th>Dirección Destino</th><th>Transporte</th><th>Estado</th></tr></thead>
+        <tbody id="tbl-envios"><tr><td colspan="5" class="empty-msg">No se encontraron registros en la colección 'envios' (Colección vacía)</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script>
+let DB = { productos: [], sucursales: [], clientes: [], ventas: [], proveedores: [], empleados: [], categorias: [], promociones: [], devoluciones: [], envios: [] };
+
+async function fetchColeccion(endpoint, key) {
+    try {
+        const response = await fetch(`http://localhost:3000/api/${endpoint}`);
+        if (response.ok) DB[key] = await response.json();
+    } catch (e) {
+        console.warn(`API local desconectada para: ${endpoint}`);
+    }
+}
+
+async function cargarDataProyecto() {
+    await fetchColeccion('productos', 'productos');
+    await fetchColeccion('sucursales', 'sucursales');
+    await fetchColeccion('clientes', 'clientes');
+    await fetchColeccion('ventas', 'ventas');
+    await fetchColeccion('proveedores', 'proveedores');
+    await fetchColeccion('empleados', 'empleados');
+    await fetchColeccion('categorias', 'categorias');
+    await fetchColeccion('promociones', 'promociones');
+    await fetchColeccion('devoluciones', 'devoluciones');
+    await fetchColeccion('envios', 'envios');
+    
+    actualizarDashboard();
+    renderTablas();
+}
+
+function actualizarDashboard() {
+    document.getElementById('card-prod').textContent = DB.productos.length;
+    document.getElementById('card-ventas').textContent = DB.ventas.length;
+    document.getElementById('card-cli').textContent = DB.clientes.length;
+    document.getElementById('card-prov').textContent = DB.proveedores.length;
+    document.getElementById('card-emp').textContent = DB.empleados.length;
+    document.getElementById('card-promo').textContent = DB.promociones.length;
+    document.getElementById('badge-suc').textContent = DB.sucursales.length;
+    document.getElementById('badge-ven').textContent = DB.ventas.length;
+
+    const tDash = document.getElementById('dash-ventas-tbody');
+    if (!tDash) return; tDash.innerHTML = '';
+    DB.ventas.slice(0, 6).forEach(v => {
+        const b = v.estado_envio === 'entregado' ? 'badge-green' : (v.estado_envio === 'pendiente' ? 'badge-yellow' : 'badge-blue');
+        tDash.innerHTML += `<tr><td><strong>${v.ticket_id}</strong></td><td><span class="badge badge-gray">${v.canal}</span></td><td>${v.cliente_id}</td><td><strong>$${Number(v.total_pagado).toFixed(2)}</strong></td><td><span class="badge ${b}">${v.estado_envio}</span></td></tr>`;
+    });
+}
+
+function renderTablas() {
+    // Productos
+    const tP = document.getElementById('tbl-productos');
+    if(tP) { tP.innerHTML = ''; DB.productos.forEach(p=> { tP.innerHTML += `<tr><td><strong>${p.sku}</strong></td><td>${p.nombre}</td><td><span class="badge badge-blue">${p.categoria}</span></td><td>${p.marca}</td><td>$${Number(p.precio_venta).toFixed(2)}</td><td>${p.proveedor}</td></tr>`; }); }
+    
+    // Ventas
+    const tV = document.getElementById('tbl-ventas');
+    if(tV) { tV.innerHTML = ''; DB.ventas.forEach(v=> { const b = v.estado_envio === 'entregado' ? 'badge-green' : 'badge-yellow'; tV.innerHTML += `<tr><td><strong>${v.ticket_id}</strong></td><td><span class="badge badge-gray">${v.canal}</span></td><td>${v.sucursal_id}</td><td>${v.cliente_id}</td><td>${v.metodo_pago}</td><td><strong>$${Number(v.total_pagado).toFixed(2)}</strong></td><td><span class="badge ${b}">${v.estado_envio}</span></td></tr>`; }); }
+
+    // Clientes
+    const tC = document.getElementById('tbl-clientes');
+    if(tC) { tC.innerHTML = ''; DB.clientes.forEach(c=> { tC.innerHTML += `<tr><td><strong>${c.nombre}</strong></td><td>${c.correo}</td><td>${c.telefono}</td><td>${c.puntos_acumulados||0} pts</td><td><span class="badge ${c.walmart_pass?'badge-green':'badge-gray'}">${c.walmart_pass?'Activo':'No'}</span></td></tr>`; }); }
+
+    // Sucursales
+    const tS = document.getElementById('tbl-sucursales');
+    if(tS) { tS.innerHTML = ''; DB.sucursales.forEach(s=> { tS.innerHTML += `<tr><td><strong>${s.numero_tienda}</strong></td><td>${s.nombre_sucursal}</td><td><span class="badge badge-gray">${s.canal}</span></td><td>${s.ubicacion?.ciudad||'S.S'}</td><td>${s.contacto?.telefono}</td><td>${s.contacto?.gerente}</td></tr>`; }); }
+
+    // Empleados
+    const tE = document.getElementById('tbl-empleados');
+    if(tE) { tE.innerHTML = ''; DB.empleados.forEach(e=> { tE.innerHTML += `<tr><td><strong>${e.codigo_empleado}</strong></td><td>${e.nombre}</td><td>${e.puesto}</td><td>${e.sucursal_id}</td><td>${e.turno}</td><td>$${Number(e.salario).toFixed(2)}</td></tr>`; }); }
+
+    // Proveedores
+    const tPr = document.getElementById('tbl-proveedores');
+    if(tPr) { tPr.innerHTML = ''; DB.proveedores.forEach(p=> { tPr.innerHTML += `<tr><td><strong>${p.codigo_proveedor}</strong></td><td>${p.nombre}</td><td>${p.pais_origen}</td><td><span class="badge badge-blue">${p.tipo_producto}</span></td><td>${p.condiciones_pago}</td><td>⭐ ${p.calificacion}/5</td></tr>`; }); }
+
+    // Categorías (Cards)
+    const gC = document.getElementById('grid-categorias');
+    if(gC) { gC.innerHTML = ''; DB.categorias.forEach(c=> { gC.innerHTML += `<div class="cat-card"><div class="card-icon">${c.icono||'📦'}</div><div class="card-title">${c.nombre}</div><div class="card-desc">${c.descripcion}</div><div class="card-sub">Subgrupos: ${c.subcategorias?.join(', ')}</div></div>`; }); }
+
+    // Promociones (Cards)
+    const gP = document.getElementById('grid-promociones');
+    if(gP) { gP.innerHTML = ''; DB.promociones.forEach(p=> { gP.innerHTML += `<div class="promo-card"><div class="card-icon">🏷️</div><div class="card-title">${p.nombre}</div><div class="card-desc">${p.descripcion}</div><div class="card-sub">Descuento: <strong>${p.descuento_pct}% OFF</strong> | Creado por: ${p.creado_por}</div></div>`; }); }
+    
+    // Devoluciones Dinámicas (Por si acaso se inyectan en vivo)
+    const tDev = document.getElementById('tbl-devoluciones');
+    if(tDev && DB.devoluciones.length > 0) {
+        tDev.innerHTML = '';
+        DB.devoluciones.forEach(d => { tDev.innerHTML += `<tr><td><strong>${d.codigo_devolucion}</strong></td><td>${d.ticket_id}</td><td>${d.motivo}</td><td>${d.fecha}</td><td>$${d.monto}</td></tr>`; });
+    }
+
+    // Envíos Dinámicos
+    const tEnv = document.getElementById('tbl-envios');
+    if(tEnv && DB.envios.length > 0) {
+        tEnv.innerHTML = '';
+        DB.envios.forEach(e => { tEnv.innerHTML += `<tr><td><strong>${e.envio_id}</strong></td><td>${e.ticket_id}</td><td>${e.direccion}</td><td>${e.transporte}</td><td><span class="badge badge-blue">${e.estado}</span></td></tr>`; });
+    }
+}
+
+function showTab(tabName) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    const target = document.getElementById(`sec-${tabName}`);
+    if (target) target.classList.add('active');
+    const activeTab = Array.from(document.querySelectorAll('.tab')).find(t => t.textContent.toLowerCase().includes(tabName === 'categorias' ? 'categorías' : (tabName === 'promociones' ? 'promociones' : tabName)));
+    if (activeTab) activeTab.classList.add('active');
+    cargarDataProyecto();
+}
+
+function filtrarTablaLocal() {
+    const val = document.getElementById('globalSearch').value.toLowerCase();
+    document.querySelectorAll('.section.active tbody tr').forEach(r => {
+        r.style.display = r.textContent.toLowerCase().includes(val) ? '' : 'none';
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => { cargarDataProyecto(); });
+</script>
+</body>
+</html>

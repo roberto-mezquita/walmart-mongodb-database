@@ -1,0 +1,1154 @@
+[{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecbfe"
+  },
+  "ticket_id": "TKT-0001",
+  "fecha_compra": {
+    "$date": "2025-01-05T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1001,
+  "cliente_id": "maria.hernandez@gmail.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-001",
+      "nombre": "Televisor Samsung 55\"",
+      "cantidad": 1,
+      "precio_unitario": 498
+    },
+    {
+      "sku": "HOGAR-005",
+      "nombre": "Cafetera Mr. Coffee 12 tazas",
+      "cantidad": 1,
+      "precio_unitario": 24.88
+    }
+  ],
+  "total_pagado": 522.88
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecbff"
+  },
+  "ticket_id": "TKT-0002",
+  "fecha_compra": {
+    "$date": "2025-01-08T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "carlos.ramos@hotmail.com",
+  "metodo_pago": "paypal",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ROPA-001",
+      "nombre": "Camiseta Hombre Fruit of the Loom Pack 5",
+      "cantidad": 2,
+      "precio_unitario": 14.97
+    },
+    {
+      "sku": "ROPA-002",
+      "nombre": "Jeans Slim Fit Wrangler Hombre",
+      "cantidad": 1,
+      "precio_unitario": 24.97
+    }
+  ],
+  "total_pagado": 54.91
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc00"
+  },
+  "ticket_id": "TKT-0003",
+  "fecha_compra": {
+    "$date": "2025-01-12T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1002,
+  "cliente_id": "ana.lopez@gmail.com",
+  "metodo_pago": "efectivo",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-003",
+      "nombre": "Audifonos Sony WH-1000XM5",
+      "cantidad": 1,
+      "precio_unitario": 279
+    },
+    {
+      "sku": "FARM-001",
+      "nombre": "Vitamina C 1000mg Equate",
+      "cantidad": 2,
+      "precio_unitario": 7.97
+    }
+  ],
+  "total_pagado": 294.94
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc01"
+  },
+  "ticket_id": "TKT-0004",
+  "fecha_compra": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "emerson.padilla25@itca.edu.sv",
+  "metodo_pago": "tarjeta_debito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-002",
+      "nombre": "Laptop HP 15.6\" Intel Core i5",
+      "cantidad": 1,
+      "precio_unitario": 549
+    }
+  ],
+  "total_pagado": 549
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc02"
+  },
+  "ticket_id": "TKT-0005",
+  "fecha_compra": {
+    "$date": "2025-01-20T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1001,
+  "cliente_id": "luis.martinez@yahoo.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ALIM-004",
+      "nombre": "Leche Entera Great Value 1 Galon",
+      "cantidad": 4,
+      "precio_unitario": 3.78
+    },
+    {
+      "sku": "ALIM-002",
+      "nombre": "Cereal Cheerios Honey Nut",
+      "cantidad": 2,
+      "precio_unitario": 4.98
+    },
+    {
+      "sku": "ALIM-007",
+      "nombre": "Pasta Barilla Spaghetti",
+      "cantidad": 3,
+      "precio_unitario": 1.48
+    }
+  ],
+  "total_pagado": 29.5
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc03"
+  },
+  "ticket_id": "TKT-0006",
+  "fecha_compra": {
+    "$date": "2025-01-25T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "karla.flores@gmail.com",
+  "metodo_pago": "paypal",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ROPA-003",
+      "nombre": "Vestido Floral Mujer Terra & Sky",
+      "cantidad": 1,
+      "precio_unitario": 18
+    },
+    {
+      "sku": "ROPA-004",
+      "nombre": "Tenis Deportivos Athletic Works Mujer",
+      "cantidad": 1,
+      "precio_unitario": 19.97
+    }
+  ],
+  "total_pagado": 37.97
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc04"
+  },
+  "ticket_id": "TKT-0007",
+  "fecha_compra": {
+    "$date": "2025-02-02T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1003,
+  "cliente_id": "jorge.melara@gmail.com",
+  "metodo_pago": "efectivo",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "DEP-001",
+      "nombre": "Bicicleta de Montana Hyper 26\"",
+      "cantidad": 1,
+      "precio_unitario": 198
+    },
+    {
+      "sku": "DEP-003",
+      "nombre": "Colchoneta de Yoga Gaiam 6mm",
+      "cantidad": 1,
+      "precio_unitario": 21.98
+    }
+  ],
+  "total_pagado": 219.98
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc05"
+  },
+  "ticket_id": "TKT-0008",
+  "fecha_compra": {
+    "$date": "2025-02-05T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "diana.reyes@hotmail.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "HOGAR-002",
+      "nombre": "Juego de Sabanas Queen Mainstays",
+      "cantidad": 2,
+      "precio_unitario": 19.97
+    },
+    {
+      "sku": "HOGAR-004",
+      "nombre": "Lampara de Escritorio LED Mainstays",
+      "cantidad": 1,
+      "precio_unitario": 12.97
+    }
+  ],
+  "total_pagado": 52.91
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc06"
+  },
+  "ticket_id": "TKT-0009",
+  "fecha_compra": {
+    "$date": "2025-02-10T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1004,
+  "cliente_id": "pedro.vasquez@gmail.com",
+  "metodo_pago": "tarjeta_debito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ALIM-006",
+      "nombre": "Cafe Folgers Classic Roast",
+      "cantidad": 2,
+      "precio_unitario": 10.97
+    },
+    {
+      "sku": "ALIM-003",
+      "nombre": "Aceite de Oliva Bertolli",
+      "cantidad": 1,
+      "precio_unitario": 8.97
+    }
+  ],
+  "total_pagado": 30.91
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc07"
+  },
+  "ticket_id": "TKT-0010",
+  "fecha_compra": {
+    "$date": "2025-02-14T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "silvia.morales@gmail.com",
+  "metodo_pago": "paypal",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-004",
+      "nombre": "iPad Apple 10.9\" Wi-Fi 64GB",
+      "cantidad": 1,
+      "precio_unitario": 449
+    },
+    {
+      "sku": "FARM-003",
+      "nombre": "Protector Solar Neutrogena SPF 50",
+      "cantidad": 2,
+      "precio_unitario": 11.97
+    }
+  ],
+  "total_pagado": 472.94
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc08"
+  },
+  "ticket_id": "TKT-0011",
+  "fecha_compra": {
+    "$date": "2025-02-18T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1001,
+  "cliente_id": "eduardo.guevara@yahoo.com",
+  "metodo_pago": "efectivo",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "JUG-001",
+      "nombre": "LEGO Classic Ladrillos Creativos",
+      "cantidad": 1,
+      "precio_unitario": 34.97
+    },
+    {
+      "sku": "JUG-003",
+      "nombre": "Hot Wheels Pack 20 Carros",
+      "cantidad": 2,
+      "precio_unitario": 18.97
+    }
+  ],
+  "total_pagado": 72.91
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc09"
+  },
+  "ticket_id": "TKT-0012",
+  "fecha_compra": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "veronica.castro@gmail.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-006",
+      "nombre": "Smart Watch Fitbit Versa 4",
+      "cantidad": 1,
+      "precio_unitario": 199
+    },
+    {
+      "sku": "ELEC-007",
+      "nombre": "Bocina Bluetooth JBL Charge 5",
+      "cantidad": 1,
+      "precio_unitario": 149
+    }
+  ],
+  "total_pagado": 348
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc0a"
+  },
+  "ticket_id": "TKT-0013",
+  "fecha_compra": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1002,
+  "cliente_id": "miguel.portillo@hotmail.com",
+  "metodo_pago": "tarjeta_debito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ALIM-001",
+      "nombre": "Yogurt Greek Chobani Fresa",
+      "cantidad": 3,
+      "precio_unitario": 6.48
+    },
+    {
+      "sku": "ALIM-005",
+      "nombre": "Pan Integral Natures Own",
+      "cantidad": 2,
+      "precio_unitario": 3.28
+    }
+  ],
+  "total_pagado": 25.99
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc0b"
+  },
+  "ticket_id": "TKT-0014",
+  "fecha_compra": {
+    "$date": "2025-03-05T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "rosa.mendez@gmail.com",
+  "metodo_pago": "paypal",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "HOGAR-003",
+      "nombre": "Aspiradora Bissell CleanView 2252",
+      "cantidad": 1,
+      "precio_unitario": 59
+    },
+    {
+      "sku": "HOGAR-001",
+      "nombre": "Sarten Antiadherente Cuisinart 12\"",
+      "cantidad": 1,
+      "precio_unitario": 29.97
+    }
+  ],
+  "total_pagado": 88.97
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc0c"
+  },
+  "ticket_id": "TKT-0015",
+  "fecha_compra": {
+    "$date": "2025-03-10T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1003,
+  "cliente_id": "francisco.orellana@gmail.com",
+  "metodo_pago": "efectivo",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "DEP-002",
+      "nombre": "Pelota de Baloncesto Wilson Evolution",
+      "cantidad": 1,
+      "precio_unitario": 49.97
+    },
+    {
+      "sku": "ROPA-005",
+      "nombre": "Sudadera con Capucha Hanes Hombre",
+      "cantidad": 1,
+      "precio_unitario": 16.98
+    }
+  ],
+  "total_pagado": 66.95
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc0d"
+  },
+  "ticket_id": "TKT-0016",
+  "fecha_compra": {
+    "$date": "2025-03-15T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "claudia.aguilar@yahoo.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-008",
+      "nombre": "Camara Canon EOS Rebel SL3",
+      "cantidad": 1,
+      "precio_unitario": 749
+    }
+  ],
+  "total_pagado": 749
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc0e"
+  },
+  "ticket_id": "TKT-0017",
+  "fecha_compra": {
+    "$date": "2025-03-20T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1004,
+  "cliente_id": "hector.rivera@gmail.com",
+  "metodo_pago": "tarjeta_debito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "DEP-004",
+      "nombre": "Mancuernas Ajustables Bowflex 552",
+      "cantidad": 1,
+      "precio_unitario": 349
+    },
+    {
+      "sku": "DEP-003",
+      "nombre": "Colchoneta de Yoga Gaiam 6mm",
+      "cantidad": 1,
+      "precio_unitario": 21.98
+    }
+  ],
+  "total_pagado": 370.98
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc0f"
+  },
+  "ticket_id": "TKT-0018",
+  "fecha_compra": {
+    "$date": "2025-03-25T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "gabriela.zuniga@hotmail.com",
+  "metodo_pago": "paypal",
+  "estado_envio": "en_camino",
+  "detalles_productos": [
+    {
+      "sku": "ROPA-006",
+      "nombre": "Pijama Nina Wonder Nation 2 piezas",
+      "cantidad": 2,
+      "precio_unitario": 9.97
+    },
+    {
+      "sku": "JUG-002",
+      "nombre": "Barbie Dreamhouse 2023",
+      "cantidad": 1,
+      "precio_unitario": 199
+    }
+  ],
+  "total_pagado": 218.94
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc10"
+  },
+  "ticket_id": "TKT-0019",
+  "fecha_compra": {
+    "$date": "2025-04-01T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1001,
+  "cliente_id": "oscar.turcios@gmail.com",
+  "metodo_pago": "efectivo",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ALIM-008",
+      "nombre": "Jugo de Naranja Tropicana 52oz",
+      "cantidad": 4,
+      "precio_unitario": 4.48
+    },
+    {
+      "sku": "ALIM-004",
+      "nombre": "Leche Entera Great Value 1 Galon",
+      "cantidad": 2,
+      "precio_unitario": 3.78
+    }
+  ],
+  "total_pagado": 25.48
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc11"
+  },
+  "ticket_id": "TKT-0020",
+  "fecha_compra": {
+    "$date": "2025-04-05T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "ingrid.rivas@gmail.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "HOGAR-006",
+      "nombre": "Organizador de Closet Rubbermaid",
+      "cantidad": 1,
+      "precio_unitario": 89
+    },
+    {
+      "sku": "HOGAR-002",
+      "nombre": "Juego de Sabanas Queen Mainstays",
+      "cantidad": 1,
+      "precio_unitario": 19.97
+    }
+  ],
+  "total_pagado": 108.97
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc12"
+  },
+  "ticket_id": "TKT-0021",
+  "fecha_compra": {
+    "$date": "2025-04-10T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1002,
+  "cliente_id": "nelson.chavez@yahoo.com",
+  "metodo_pago": "tarjeta_debito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-005",
+      "nombre": "Impresora HP DeskJet 2755e",
+      "cantidad": 1,
+      "precio_unitario": 69
+    },
+    {
+      "sku": "FARM-002",
+      "nombre": "Ibuprofeno 200mg Equate 500 capsulas",
+      "cantidad": 1,
+      "precio_unitario": 9.97
+    }
+  ],
+  "total_pagado": 78.97
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc13"
+  },
+  "ticket_id": "TKT-0022",
+  "fecha_compra": {
+    "$date": "2025-04-15T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "lorena.sandoval@gmail.com",
+  "metodo_pago": "paypal",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "JUG-004",
+      "nombre": "Nerf Elite 2.0 Commander RD-6",
+      "cantidad": 2,
+      "precio_unitario": 14.97
+    },
+    {
+      "sku": "JUG-001",
+      "nombre": "LEGO Classic Ladrillos Creativos",
+      "cantidad": 1,
+      "precio_unitario": 34.97
+    }
+  ],
+  "total_pagado": 64.91
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc14"
+  },
+  "ticket_id": "TKT-0023",
+  "fecha_compra": {
+    "$date": "2025-04-20T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1003,
+  "cliente_id": "juan.escobar@hotmail.com",
+  "metodo_pago": "efectivo",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ALIM-006",
+      "nombre": "Cafe Folgers Classic Roast",
+      "cantidad": 1,
+      "precio_unitario": 10.97
+    },
+    {
+      "sku": "ALIM-002",
+      "nombre": "Cereal Cheerios Honey Nut",
+      "cantidad": 3,
+      "precio_unitario": 4.98
+    }
+  ],
+  "total_pagado": 25.91
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc15"
+  },
+  "ticket_id": "TKT-0024",
+  "fecha_compra": {
+    "$date": "2025-04-25T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "patricia.diaz@gmail.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-002",
+      "nombre": "Laptop HP 15.6\" Intel Core i5",
+      "cantidad": 1,
+      "precio_unitario": 549
+    },
+    {
+      "sku": "ELEC-005",
+      "nombre": "Impresora HP DeskJet 2755e",
+      "cantidad": 1,
+      "precio_unitario": 69
+    }
+  ],
+  "total_pagado": 618
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc16"
+  },
+  "ticket_id": "TKT-0025",
+  "fecha_compra": {
+    "$date": "2025-05-02T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1004,
+  "cliente_id": "alejandro.molina@gmail.com",
+  "metodo_pago": "tarjeta_debito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ROPA-002",
+      "nombre": "Jeans Slim Fit Wrangler Hombre",
+      "cantidad": 2,
+      "precio_unitario": 24.97
+    },
+    {
+      "sku": "ROPA-005",
+      "nombre": "Sudadera con Capucha Hanes Hombre",
+      "cantidad": 1,
+      "precio_unitario": 16.98
+    }
+  ],
+  "total_pagado": 66.92
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc17"
+  },
+  "ticket_id": "TKT-0026",
+  "fecha_compra": {
+    "$date": "2025-05-08T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "stephanie.perez@yahoo.com",
+  "metodo_pago": "paypal",
+  "estado_envio": "en_camino",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-004",
+      "nombre": "iPad Apple 10.9\" Wi-Fi 64GB",
+      "cantidad": 1,
+      "precio_unitario": 449
+    },
+    {
+      "sku": "ELEC-003",
+      "nombre": "Audifonos Sony WH-1000XM5",
+      "cantidad": 1,
+      "precio_unitario": 279
+    }
+  ],
+  "total_pagado": 728
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc18"
+  },
+  "ticket_id": "TKT-0027",
+  "fecha_compra": {
+    "$date": "2025-05-12T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1001,
+  "cliente_id": "mario.campos@gmail.com",
+  "metodo_pago": "efectivo",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "FARM-004",
+      "nombre": "Termometro Digital Braun ThermoScan",
+      "cantidad": 1,
+      "precio_unitario": 39.97
+    },
+    {
+      "sku": "FARM-001",
+      "nombre": "Vitamina C 1000mg Equate",
+      "cantidad": 3,
+      "precio_unitario": 7.97
+    }
+  ],
+  "total_pagado": 63.88
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc19"
+  },
+  "ticket_id": "TKT-0028",
+  "fecha_compra": {
+    "$date": "2025-05-18T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "wendy.bonilla@hotmail.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "pendiente",
+  "detalles_productos": [
+    {
+      "sku": "JUG-002",
+      "nombre": "Barbie Dreamhouse 2023",
+      "cantidad": 1,
+      "precio_unitario": 199
+    },
+    {
+      "sku": "JUG-003",
+      "nombre": "Hot Wheels Pack 20 Carros",
+      "cantidad": 2,
+      "precio_unitario": 18.97
+    }
+  ],
+  "total_pagado": 236.94
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc1a"
+  },
+  "ticket_id": "TKT-0029",
+  "fecha_compra": {
+    "$date": "2025-05-22T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1002,
+  "cliente_id": "raul.villalta@gmail.com",
+  "metodo_pago": "tarjeta_debito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-001",
+      "nombre": "Televisor Samsung 55\"",
+      "cantidad": 1,
+      "precio_unitario": 498
+    },
+    {
+      "sku": "ELEC-007",
+      "nombre": "Bocina Bluetooth JBL Charge 5",
+      "cantidad": 1,
+      "precio_unitario": 149
+    }
+  ],
+  "total_pagado": 647
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc1b"
+  },
+  "ticket_id": "TKT-0030",
+  "fecha_compra": {
+    "$date": "2025-05-28T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "alicia.escobar25@itca.edu.sv",
+  "metodo_pago": "paypal",
+  "estado_envio": "pendiente",
+  "detalles_productos": [
+    {
+      "sku": "ROPA-003",
+      "nombre": "Vestido Floral Mujer Terra & Sky",
+      "cantidad": 2,
+      "precio_unitario": 18
+    },
+    {
+      "sku": "ROPA-004",
+      "nombre": "Tenis Deportivos Athletic Works Mujer",
+      "cantidad": 1,
+      "precio_unitario": 19.97
+    },
+    {
+      "sku": "FARM-003",
+      "nombre": "Protector Solar Neutrogena SPF 50",
+      "cantidad": 1,
+      "precio_unitario": 11.97
+    }
+  ],
+  "total_pagado": 67.94
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc1c"
+  },
+  "ticket_id": "TKT-0031",
+  "fecha_compra": {
+    "$date": "2026-01-10T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1001,
+  "cliente_id": "maria.hernandez@gmail.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-002",
+      "nombre": "Laptop HP 15.6\" Intel Core i5",
+      "cantidad": 1,
+      "precio_unitario": 549
+    },
+    {
+      "sku": "FARM-001",
+      "nombre": "Vitamina C 1000mg Equate",
+      "cantidad": 2,
+      "precio_unitario": 7.97
+    }
+  ],
+  "total_pagado": 564.94
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc1d"
+  },
+  "ticket_id": "TKT-0032",
+  "fecha_compra": {
+    "$date": "2026-01-22T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "jorge.melara@gmail.com",
+  "metodo_pago": "paypal",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-004",
+      "nombre": "iPad Apple 10.9\" Wi-Fi 64GB",
+      "cantidad": 1,
+      "precio_unitario": 449
+    },
+    {
+      "sku": "ELEC-007",
+      "nombre": "Bocina Bluetooth JBL Charge 5",
+      "cantidad": 1,
+      "precio_unitario": 149
+    }
+  ],
+  "total_pagado": 598
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc1e"
+  },
+  "ticket_id": "TKT-0033",
+  "fecha_compra": {
+    "$date": "2026-02-05T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1003,
+  "cliente_id": "hector.rivera@gmail.com",
+  "metodo_pago": "efectivo",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "DEP-004",
+      "nombre": "Mancuernas Ajustables Bowflex 552",
+      "cantidad": 1,
+      "precio_unitario": 349
+    },
+    {
+      "sku": "DEP-003",
+      "nombre": "Colchoneta de Yoga Gaiam 6mm",
+      "cantidad": 1,
+      "precio_unitario": 21.98
+    }
+  ],
+  "total_pagado": 370.98
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc1f"
+  },
+  "ticket_id": "TKT-0034",
+  "fecha_compra": {
+    "$date": "2026-02-18T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "patricia.diaz@gmail.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-008",
+      "nombre": "Camara Canon EOS Rebel SL3",
+      "cantidad": 1,
+      "precio_unitario": 749
+    }
+  ],
+  "total_pagado": 749
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc20"
+  },
+  "ticket_id": "TKT-0035",
+  "fecha_compra": {
+    "$date": "2026-03-03T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1002,
+  "cliente_id": "nelson.chavez@yahoo.com",
+  "metodo_pago": "tarjeta_debito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "JUG-001",
+      "nombre": "LEGO Classic Ladrillos Creativos",
+      "cantidad": 2,
+      "precio_unitario": 34.97
+    },
+    {
+      "sku": "JUG-002",
+      "nombre": "Barbie Dreamhouse 2023",
+      "cantidad": 1,
+      "precio_unitario": 199
+    }
+  ],
+  "total_pagado": 268.94
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc21"
+  },
+  "ticket_id": "TKT-0036",
+  "fecha_compra": {
+    "$date": "2026-03-20T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "ana.lopez@gmail.com",
+  "metodo_pago": "paypal",
+  "estado_envio": "en_camino",
+  "detalles_productos": [
+    {
+      "sku": "ROPA-002",
+      "nombre": "Jeans Slim Fit Wrangler Hombre",
+      "cantidad": 2,
+      "precio_unitario": 24.97
+    },
+    {
+      "sku": "ROPA-005",
+      "nombre": "Sudadera con Capucha Hanes Hombre",
+      "cantidad": 2,
+      "precio_unitario": 16.98
+    }
+  ],
+  "total_pagado": 83.9
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc22"
+  },
+  "ticket_id": "TKT-0037",
+  "fecha_compra": {
+    "$date": "2026-04-08T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1004,
+  "cliente_id": "raul.villalta@gmail.com",
+  "metodo_pago": "efectivo",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "ALIM-004",
+      "nombre": "Leche Entera Great Value 1 Galon",
+      "cantidad": 6,
+      "precio_unitario": 3.78
+    },
+    {
+      "sku": "ALIM-006",
+      "nombre": "Cafe Folgers Classic Roast",
+      "cantidad": 2,
+      "precio_unitario": 10.97
+    }
+  ],
+  "total_pagado": 44.62
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc23"
+  },
+  "ticket_id": "TKT-0038",
+  "fecha_compra": {
+    "$date": "2026-04-25T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "stephanie.perez@yahoo.com",
+  "metodo_pago": "tarjeta_credito",
+  "estado_envio": "pendiente",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-001",
+      "nombre": "Televisor Samsung 55\"",
+      "cantidad": 1,
+      "precio_unitario": 498
+    },
+    {
+      "sku": "HOGAR-003",
+      "nombre": "Aspiradora Bissell CleanView 2252",
+      "cantidad": 1,
+      "precio_unitario": 59
+    }
+  ],
+  "total_pagado": 557
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc24"
+  },
+  "ticket_id": "TKT-0039",
+  "fecha_compra": {
+    "$date": "2026-05-10T00:00:00.000Z"
+  },
+  "canal": "fisica",
+  "sucursal_id": 1001,
+  "cliente_id": "luis.martinez@yahoo.com",
+  "metodo_pago": "tarjeta_debito",
+  "estado_envio": "entregado",
+  "detalles_productos": [
+    {
+      "sku": "FARM-002",
+      "nombre": "Ibuprofeno 200mg Equate",
+      "cantidad": 2,
+      "precio_unitario": 9.97
+    },
+    {
+      "sku": "FARM-004",
+      "nombre": "Termometro Digital Braun ThermoScan",
+      "cantidad": 1,
+      "precio_unitario": 39.97
+    }
+  ],
+  "total_pagado": 59.91
+},
+{
+  "_id": {
+    "$oid": "6a1fa7e45225ef29758ecc25"
+  },
+  "ticket_id": "TKT-0040",
+  "fecha_compra": {
+    "$date": "2026-05-28T00:00:00.000Z"
+  },
+  "canal": "online",
+  "sucursal_id": 9001,
+  "cliente_id": "emerson.padilla25@itca.edu.sv",
+  "metodo_pago": "paypal",
+  "estado_envio": "pendiente",
+  "detalles_productos": [
+    {
+      "sku": "ELEC-003",
+      "nombre": "Audifonos Sony WH-1000XM5",
+      "cantidad": 1,
+      "precio_unitario": 279
+    },
+    {
+      "sku": "ELEC-006",
+      "nombre": "Smart Watch Fitbit Versa 4",
+      "cantidad": 1,
+      "precio_unitario": 199
+    }
+  ],
+  "total_pagado": 478
+}]
