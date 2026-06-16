@@ -49,3 +49,5 @@ La solución fue desarrollada utilizando MongoDB y JavaScript, permitiendo autom
 ## Autor
 
 Estudiantes de Técnico en Ingeniería de Desarrollo de Software – ITCA-FEPADE
+
+Esta es una prueba de guardado de versiones en Git
